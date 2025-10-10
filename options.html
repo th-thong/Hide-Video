@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+
+    <h1>Setting</h1>
+
+    <div class="container">
+
+        <div class="setting-item">
+            <span class="setting-label">Hide media in Youtube</span>
+            <label class="switch">
+                <input type="checkbox" id="youtube-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="setting-item">
+            <span class="setting-label">Banned keywords</span>
+            <input type="text" id="youtube-keywords" class="text-input" placeholder="Input banned keywords...">
+        </div>
+
+        <div class="setting-item">
+            <span class="setting-label">Hide media in Tiktok</span>
+            <label class="switch">
+                <input type="checkbox" id="tiktok-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <div class="setting-item">
+            <span class="setting-label">Banned keywords</span>
+            <input type="text" id="tiktok-keywords" class="text-input" placeholder="Input banned keywords...">
+        </div>
+        
+        <div class="setting-item">
+            <span class="setting-label">Hide media in X</span>
+            <label class="switch">
+                <input type="checkbox" id="x-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+         <div class="setting-item">
+            <span class="setting-label">Banned keywords</span>
+            <input type="text" id="x-keywords" class="text-input" placeholder="Input banned keywords...">
+        </div>
+    </div>
+    
+    <button id="save-btn">Save</button>
+    <div id="status"></div>
+
+    <script src="options.js"></script>
+</body>
+</html>
