@@ -6,7 +6,12 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "content_scripts": [],
+  "content_scripts": [
+  {
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["youtube.js"]
+  }
+  ],
   "background": {
     "service_worker": "background.js"
   },
